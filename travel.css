@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffff;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-image: url(tra.jpg);
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    padding-top: 3vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav h1 {
+    font-size: 2.4vw;
+}
+
+.hi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1vw;
+    gap: 1.2vw;
+}
+
+.ti {
+    height: 40%;
+    width: 50%;
+    padding-left: 8vw;
+    margin-top: 11vw;
+}
+
+.ti h1 {
+    font-size: 5.5vw;
+}
+
+.ti p {
+    font-size: 15px;
+    margin-top: 12px;
+    width: 28w;
+}
+
+#page2 {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#page2 h2 {
+    padding-top: 6vw;
+    text-align: center;
+}
+
+#page2 h6 {
+    padding-top: 1vw;
+    text-align: center;
+}
+
+.card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    padding-top: 3vw;
+}
+
+.card {
+    height: 29vw;
+    width: 19vw;
+    background-color: aqua;
+}
+
+.card h1 {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 21vw;
+    font-size: 30px;
+}
+
+.card h5 {
+    padding-top: 0vw;
+    text-align: center;
+    font-size: 16px;
+}
+
+#card {
+    background-image: url(1704013997908.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: 0% 0%;
+}
+
+#card2 {
+    background-image: url(1704013997896.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: 0% 0%;
+}
+
+#card3 {
+    background-image: url(1704013997902.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: 0% 0%;
+}
+
+#card4 {
+    background-image: url(1704013997889.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: 0% 0%;
+}
+
+
+#page3 {
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    background-image: url(flowers-7907495.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: 0% 0%;
+}
+
+.title {
+    height: 23vw;
+    width: 36vw;
+    padding-top: 9vw;
+    margin-left: 8vw;
+}
+
+.title h1 {
+    font-size: 4vw;
+}
+
+.vid {
+    width: 100%;
+    display: flex;
+
+}
+
+.in {
+    height: 12vw;
+    width: 40vw;
+    padding-left: 8vw;
+    margin-top: 2vw;
+}
+
+.in p {
+    font-size: 1.3vw;
+}
+
+.im {
+    height: 12vw;
+    display: flex;
+    gap: 1.2vw;
+}
+
+.im img {
+    height: 12vw;
+    width: 23vw;
+}
+
+
+
+
+@media (max-width:600px) {
+    body {
+        flex-direction: column;
+    }
+
+    #main {
+        height: 100%;
+        width: 100%;
+        background-position: 8% 0%;
+    }
+
+    .hi {
+        display: none;
+    }
+
+    .nav {
+        gap: 48vw;
+        padding-left: 4vw;
+    }
+
+    .nav h1 {
+        font-size: 4vw;
+        margin: 2px;
+    }
+
+    .ti {
+        height: 40%;
+        width: 60%;
+        margin-top: 40vw;
+    }
+
+    .ti h1 {
+        font-size: 16vw;
+    }
+
+    .ti p {
+        margin-top: 5vw;
+        font-size: 3vw;
+        width: 58vw;
+        padding-left: 4vw;
+    }
+
+    #page2 {
+        height: 223%;
+        width: 100%;
+        background-color: black;
+    }
+
+    #page2 h2 {
+        padding-top: 13vw;
+        text-align: center;
+    }
+
+    #page2 h6 {
+        padding-top: 1vw;
+        text-align: center;
+    }
+
+    .card1 {
+        height: 92%;
+        flex-direction: column;
+        gap: 8vw;
+    }
+
+    .card {
+        height: 100vw;
+        width: 65vw;
+        background-color: aqua;
+    }
+
+    .card h1 {
+        font-weight: bold;
+        text-align: center;
+        padding-top: 65vw;
+        font-size: 27px;
+
+    }
+
+    .card h5 {
+        padding-top: 0vw;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #page3 {
+        height: 107%;
+        width: 100%;
+        background-color: aqua;
+        background-position: 83% 0%;
+    }
+
+    .title {
+        height: 46vw;
+        width: 100%;
+        padding-top: 20vw;
+        text-align: center;
+        margin-left: 0vw;
+    }
+
+    .title h1 {
+        text-align: center;
+        font-size: 7.5vw;
+    }
+
+    .vid {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .in {
+        height: 25vw;
+        width: 82vw;
+        padding-left: 8vw;
+        margin-top: 7vw;
+    }
+
+    .in p {
+        font-size: 3vw;
+    }
+
+    .im {
+        padding-top: 7vw;
+        height: 12vw;
+        flex-direction: column;
+        gap: 6vw;
+    }
+
+    .im img {
+        height: 45vw;
+        width: 80vw;
+    }
+
+
+
+
+
+
+
+
+}
